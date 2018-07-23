@@ -15,6 +15,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "file-upload-dragndrop": [
+        "dist/file-upload-dragndrop"
+      ],
+      "file-upload-dragndrop/*": [
+        "dist/file-upload-dragndrop/*"
+      ]
+    }
   }
 }
